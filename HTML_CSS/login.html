@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxmodel {
+            border: 5px solid red;
+            display: inline-block;
+            padding: 5px 20px 5px 20px;
+            margin: 0 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 1.4em;
+            /* em - 2 times the containing element */
+            /* rem - 2 times the root element */
+        }
+    </style>
+</head>
+
+<body>
+    <header style="color: blue; font-weight:600">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Login</h2>
+        <div class="boxmodel">A</div>
+        <div class="boxmodel">B</div>
+        <div class="boxmodel">C</div>
+        <p>Introduction</p>
+        <p><span> Lorem ipsum </span>dolor sit amet consectetur adipisicing elit. Minima consequuntur quia suscipit
+            ullam! Nostrum
+            ullam sed, quos ad eum adipisci voluptatum omnis fugit voluptas, odio cum laborum explicabo perspiciatis
+            aspernatur.</p>
+
+    </section>
+</body>
+
+</html>

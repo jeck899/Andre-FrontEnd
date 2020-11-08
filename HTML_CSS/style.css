@@ -1,0 +1,56 @@
+/* 
+Selector {
+    Property: value;
+
+Levels of Selectors
+inline style
+.class
+#id - can only be used once
+* - select all
+element
+element, element - select both element
+element1 element2 - select all element2 inside element 1
+element1 > element2 - select all element2 with element1 as parent 
+element1 + element2 - select all element2 that are exactly right after element1
+all below are typed like p:hover ...
+:hover - activates style when hovered
+:last-child - only last child is selected
+:first-child - only first child is selected
+!important (not recommended) - puts the property at the top of level, typed inside a propert ex: "color:pink !important;"
+} 
+*/
+body {
+    background-image: url("images/download.jpg");
+    background-size: fill;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+}
+
+p {
+    color: pink;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* classes */
+
+.webtext {
+    border: 5px dashed green;
+}
+
+/* ids - can be used once*/
+#p2 {
+    background-color: #5900b3;
+}
